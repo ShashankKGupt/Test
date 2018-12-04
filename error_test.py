@@ -3,6 +3,7 @@ import sqlite3
 import pandas as pd
 import numpy as np
 import os
+import shashank
 os.chdir(r'C:\Users\esaugph\Desktop')
 conn=pymongo.MongoClient('localhost',27017)
 mydb=conn['employee']
